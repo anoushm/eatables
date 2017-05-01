@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AL.Eatables.Web", "AL.Eatables.Web\AL.Eatables.Web.csproj", "{63BF1FCF-BCBD-43CD-97F9-401B2D19F096}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AL.Eatables.IntegrationTests", "AL.Eatables.IntegrationTests\AL.Eatables.IntegrationTests.csproj", "{2985EC6B-1A1D-41BE-87B4-94FD21EE1109}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AL.Eatable.UnitTests", "AL.Eatable.UnitTests\AL.Eatable.UnitTests.csproj", "{53A9AFE4-C819-4F44-9A30-90705C61AF71}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63BF1FCF-BCBD-43CD-97F9-401B2D19F096}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63BF1FCF-BCBD-43CD-97F9-401B2D19F096}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63BF1FCF-BCBD-43CD-97F9-401B2D19F096}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63BF1FCF-BCBD-43CD-97F9-401B2D19F096}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2985EC6B-1A1D-41BE-87B4-94FD21EE1109}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2985EC6B-1A1D-41BE-87B4-94FD21EE1109}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2985EC6B-1A1D-41BE-87B4-94FD21EE1109}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2985EC6B-1A1D-41BE-87B4-94FD21EE1109}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53A9AFE4-C819-4F44-9A30-90705C61AF71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53A9AFE4-C819-4F44-9A30-90705C61AF71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53A9AFE4-C819-4F44-9A30-90705C61AF71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53A9AFE4-C819-4F44-9A30-90705C61AF71}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.2\lib\NET35
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://anoush.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = AL.Eatable.UnitTests\\AL.Eatable.UnitTests.csproj
+		SccProjectName1 = AL.Eatable.UnitTests
+		SccLocalPath1 = AL.Eatable.UnitTests
+		SccProjectUniqueName2 = AL.Eatables.IntegrationTests\\AL.Eatables.IntegrationTests.csproj
+		SccProjectName2 = AL.Eatables.IntegrationTests
+		SccLocalPath2 = AL.Eatables.IntegrationTests
+		SccProjectUniqueName3 = AL.Eatables.Web\\AL.Eatables.Web.csproj
+		SccProjectName3 = AL.Eatables.Web
+		SccLocalPath3 = AL.Eatables.Web
+	EndGlobalSection
+EndGlobal

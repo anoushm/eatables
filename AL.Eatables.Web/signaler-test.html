@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>SignalR Test</title>
+    <meta charset="utf-8" />
+
+    <script src="Scripts/jquery-1.6.4.js"></script>
+    <script src="Scripts/jquery.signalR-2.2.1.js"></script>
+    <script src="https://code.angularjs.org/1.4.0-rc.2/angular.min.js"></script>
+
+    <script src="Js/services/broadcast-service.js"></script>
+    <script src="Js/app.js"></script>
+    <script src="http://aleatablesweb.azurewebsites.net/inventory-signalr/hubs"></script>
+    <script src="Js/directives/status-directive.js"></script>
+    <script src="Js/directives/linechart-directive.js"></script>
+    <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+    <script>
+        google.load('visualization', '1.0', { 'packages': ['gauge', 'corechart'] });
+        google.setOnLoadCallback(function () {
+            angular.bootstrap(document, ['app']);
+        });
+    </script>
+
+</head>
+<body>
+    <h1>Inventory SignalR Test</h1>
+        <div ng-controller="linechart-controller">
+            <div>{{statusMessage}}</div>
+            <nobr>
+                <div linechart-directive metric="inventoryTotal"></div>
+                <div linechart-directive metric="salesTotal"></div>
+            </nobr>
+        </div>
+        <div ng-controller="guage-controller">
+            <div status-directive metric="inventoryCount"></div>
+            <div status-directive metric="salesCount"></div>
+        </div>
+</body>
+</html>
